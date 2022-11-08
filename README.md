@@ -7,11 +7,6 @@ This is a fork of the original [flutter_native_timezone](https://pub.dev/package
 ## Getting Started
 
 Install this package and everything good will just follow along with you.
- 
-## Features
-
-- [X] iOS Support
-- [X] Android Support
 
 ## Usage examples
 

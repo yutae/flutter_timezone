@@ -1,3 +1,7 @@
+## 1.0.2
+
+Enable web support
+
 ## 1.0.1
 
 * iOS fixes for example app
