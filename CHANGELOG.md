@@ -1,3 +1,9 @@
+## 1.0.1
+
+* iOS fixes for example app
+* Change package name to net.wolverinebeach
+* Fix method channel name typo on iOS
+
 ## 1.0.0
 
 Initial release as flutter_timezone. This release is built on top of 
