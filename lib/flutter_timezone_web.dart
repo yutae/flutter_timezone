@@ -8,14 +8,14 @@ import 'package:js/js.dart';
 /// The plugin class for the web, acts as the plugin inside bits
 /// and connects to the js world.
 ///
-class FlutterNativeTimezonePlugin {
+class FlutterTimezonePlugin {
   static void registerWith(Registrar registrar) {
     final MethodChannel channel = MethodChannel(
       'flutter_native_timezone',
       const StandardMethodCodec(),
       registrar,
     );
-    final FlutterNativeTimezonePlugin instance = FlutterNativeTimezonePlugin();
+    final FlutterTimezonePlugin instance = FlutterTimezonePlugin();
     channel.setMethodCallHandler(instance.handleMethodCall);
   }
 
@@ -28,8 +28,7 @@ class FlutterNativeTimezonePlugin {
       default:
         throw PlatformException(
             code: 'Unimplemented',
-            details:
-                "The flutter_native_timezone plugin for web doesn't implement "
+            details: "The flutter_native_timezone plugin for web doesn't implement "
                 "the method '${call.method}'");
     }
   }

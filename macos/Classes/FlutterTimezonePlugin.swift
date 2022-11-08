@@ -1,10 +1,10 @@
 import Cocoa
 import FlutterMacOS
 
-public class FlutterNativeTimezonePlugin: NSObject, FlutterPlugin {
+public class FlutterTimezonePlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "flutter_native_timezone", binaryMessenger: registrar.messenger)
-    let instance = FlutterNativeTimezonePlugin()
+    let channel = FlutterMethodChannel(name: "flutter_timezone", binaryMessenger: registrar.messenger)
+    let instance = FlutterTimezonePlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

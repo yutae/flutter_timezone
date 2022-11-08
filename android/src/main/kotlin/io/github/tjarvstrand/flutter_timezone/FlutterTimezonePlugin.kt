@@ -1,4 +1,4 @@
-package com.whelksoft.flutter_native_timezone
+package io.github.tjarvstrand.flutter_timezone
 
 import android.os.Build
 import androidx.annotation.NonNull
@@ -13,7 +13,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar
 import java.util.*
 import kotlin.collections.ArrayList
 
-class FlutterNativeTimezonePlugin : FlutterPlugin, MethodCallHandler {
+class FlutterTimezonePlugin : FlutterPlugin, MethodCallHandler {
 
     private lateinit var channel: MethodChannel
 
@@ -21,7 +21,7 @@ class FlutterNativeTimezonePlugin : FlutterPlugin, MethodCallHandler {
     companion object {
         @JvmStatic
         fun registerWith(registrar: Registrar) {
-            val plugin = FlutterNativeTimezonePlugin()
+            val plugin = FlutterTimezonePlugin()
             plugin.setupMethodChannel(registrar.messenger())
         }
     }
@@ -61,7 +61,7 @@ class FlutterNativeTimezonePlugin : FlutterPlugin, MethodCallHandler {
     }
 
     private fun setupMethodChannel(messenger: BinaryMessenger) {
-        channel = MethodChannel(messenger, "flutter_native_timezone")
+        channel = MethodChannel(messenger, "flutter_timezone")
         channel.setMethodCallHandler(this)
     }
 }

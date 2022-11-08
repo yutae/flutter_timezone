@@ -1,4 +1,4 @@
-group 'com.whelksoft.flutter_native_timezone'
+group 'io.github.tjarvstrand.flutter_timezone'
 version '1.0-SNAPSHOT'
 
 buildscript {

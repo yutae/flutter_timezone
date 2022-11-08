@@ -1,10 +1,10 @@
-# flutter_native_timezone
+# flutter_timezone
 
 A flutter plugin for getting the local timezone of the os.
 
 ## Getting Started
 
-Install this package and everthing good will just follow along with you.
+Install this package and everything good will just follow along with you.
  
 ## Features
 
@@ -15,5 +15,5 @@ Install this package and everthing good will just follow along with you.
 
 #### Get the timezone
 ```dart
-final String currentTimeZone = await FlutterNativeTimezone.getLocalTimezone();
+final String currentTimeZone = await FlutterTimezone.getLocalTimezone();
 ```
