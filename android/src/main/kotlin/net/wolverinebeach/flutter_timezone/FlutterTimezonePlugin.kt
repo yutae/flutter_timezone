@@ -1,4 +1,4 @@
-package io.github.tjarvstrand.flutter_timezone
+package net.wolverinebeach.flutter_timezone
 
 import android.os.Build
 import androidx.annotation.NonNull

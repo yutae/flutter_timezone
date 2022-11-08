@@ -28,7 +28,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: io.github.tjarvstrand.flutter_timezone
+        package: net.wolverinebeach.flutter_timezone
         pluginClass: FlutterTimezonePlugin
       ios:
         pluginClass: FlutterTimezonePlugin

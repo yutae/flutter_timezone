@@ -1,4 +1,4 @@
-group 'io.github.tjarvstrand.flutter_timezone'
+group 'net.wolverinebeach.flutter_timezone'
 version '1.0-SNAPSHOT'
 
 buildscript {
