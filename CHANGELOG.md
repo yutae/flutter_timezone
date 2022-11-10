@@ -1,3 +1,7 @@
+## 1.0.3
+
+Enable MacOS support
+
 ## 1.0.2
 
 Enable web support
